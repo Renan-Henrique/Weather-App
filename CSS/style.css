@@ -1,0 +1,147 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: box;
+    font-family: "Ubuntu", sans-serif;
+}
+
+html, body {
+    width: 100%;
+    min-height: 100vh;
+}
+
+body {
+    background: linear-gradient(180deg, rgba(89,76, 238, 1) 0%, #8dd0f5 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.hide {
+    display: none;
+}
+
+.container {
+    background-color: #5c54ed;
+    color: rgb(247, 245, 245);
+    box-shadow: rgb(0,0,0, +.24) 0px 3px 8px;
+    padding: 30px;
+    border-radius: 20px;
+}
+
+.city-search {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.form-input {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    gap: 8px;
+}
+#city-input {
+    display: flex;
+    padding: 15px;
+    flex: 1;
+    border: none;
+    border-radius: 4px;
+}
+
+.city-search > h1 {
+    font-size: 23px;
+}
+
+.search {
+    min-width: 50px;
+    background-color: #8dd0f5;
+    border: none;
+    border-radius: 4px;
+    color: rgb(238, 233, 233);
+    cursor: pointer;
+
+}
+
+/* CLIMA */
+
+.weather-data {
+    border-top: 1px solid #fff;
+    margin-top: 1.5rem;
+    padding: 1.5rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+
+#city-description {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 13px;
+}
+
+#country {
+    height: 30px;
+}
+
+
+
+.temp-weather{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+#temperature {
+    font-weight: bold;
+    text-transform: capitalize;
+    font-size: 30px;
+    margin-top: 15px;
+}
+
+#temperature p {
+    display: flex;
+    justify-content: center;
+
+
+}
+
+#description-weather {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    text-transform: capitalize;
+    font-size: 20px;
+}
+
+
+#weather-icon {
+    height: 70px;
+}
+
+#umidity-wind {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#umidity {
+    border-right: 1px solid #fff;
+    margin: 0.6rem;
+    padding: 0.6rem;
+}
